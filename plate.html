@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!--<style>
+
+		/*** Navbar ***/
+.fixed-top {
+    transition: .5s;
+}
+
+.top-bar {
+    height: 45px;
+    border-bottom: 1px solid rgba(0, 0, 0, .07);
+}
+
+.navbar .dropdown-toggle::after {
+    border: none;
+    /* ----toggle icon---- */
+    /* content: "\f107"; */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 25px 15px;
+    color: #555555;
+    font-weight: 500;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--dark);
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        border-top: 1px solid rgba(0, 0, 0, .07);
+        background: #FFFFFF;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        visibility: hidden;
+        top: 100%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+        transition: .5s;
+        opacity: 0;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transform: rotateX(0deg);
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+}
+
+
+/* Global styles */
+/*body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #FFB6C1;
+	color: #FFFFFF;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+main {
+	margin: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+/* Section-specific styles 
+#benefits {
+	background-color: #D3D3D3;
+	padding: 20px;
+}
+
+#tips {
+	background-color: #F0E68C;
+	padding: 20px;
+}
+
+#recipes {
+	background-color: #87CEEB;
+	padding: 20px;
+}
+
+#recipes a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#recipes a:hover {
+	text-decoration: underline;
+}*/
+
+
+
+
+    </style>-->
+
+
+
+ <!-- Favicon -->
+ <!--<link href="img/favicon.ico" rel="icon">
+
+  Google Web Fonts -->
+ <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap"
+	 rel="stylesheet">
+  Icon Font Stylesheet -->
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+ <!-- Libraries Stylesheet -->
+ <link href="lib/animate/animate.min.css" rel="stylesheet">
+ <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+ <!-- Customized Bootstrap Stylesheet -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+
+ <!-- Template Stylesheet -->
+ <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+ <!-- Spinner Start -->
+ <div id="spinner"
+	 class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+	 <div class="spinner-border text-primary" role="status"></div>
+ </div> 
+ <!-- Spinner End -->
+    <!-- Navbar Start -->
+   <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s"></div>
+    <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+       <div class="col-lg-6 px-5 text-start">
+        <small><i class="fa fa-map-marker-alt me-2"></i>RMC College, Akurdi</small>
+            <small class="ms-4"><i class="fa fa-envelope me-2"></i>omkarsanjaygokule@gmail.com </small>
+            <small class="ms-4"><i class="fa fa-envelope me-2"></i>shravanihore05@gmail.com</small></small>
+        </div>
+             <div class="col-lg-6 px-5 text-end">
+            <small>Follow us:</small>
+            <a class="text-body ms-3" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="text-body ms-3" href=""><i class="fab fa-twitter"></i></a>
+            <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
+            <a class="text-body ms-3" href=""><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="fw-bold text-primary m-0"><span class="text-secondary">Nature's </span>Nurture🌿</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="Articles.html" class="nav-item nav-link">Articles</a>
+                <a href="product.html" class="nav-item nav-link">Recipes</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            </div>
+            <div class="d-none d-lg-flex ms-2">
+                <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                    <small class="fa fa-search text-body"></small>
+                </a>
+                <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                    <small class="fa fa-user text-body"></small>
+                </a>
+                <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                    <small class="fa fa-shopping-bag text-body"></small>
+                </a>
+            </div>
+        </div>
+    </nav>
+    </div>
+    <!-- Navbar End -->
+    
+	<title>Healthy Eating Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Healthy Eating</h1>
+		<!--<nav>
+			<ul>
+				<li><a href="#benefits">Benefits</a></li>
+				<li><a href="#tips">Tips</a></li>
+				<li><a href="#recipes">Recipes</a></li>
+			</ul>
+		</nav>-->
+	</header>
+
+	<main>
+		<section id="benefits">
+			<h2>HEALTHY EATING PLATE</h2>
+            <img class="w-100" src="img/Screenshot2.jpg" alt="Image" style="display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;">
+			<h3>The Healthy Eating Plate: A Guide to a Balanced Diet</h3><br>
+			<!--<ul>
+				<li>Reduced risk of chronic diseases such as heart disease, diabetes, and cancer</li>
+				<li>Improved mood and mental health</li>
+				<li>Increased energy levels</li>
+				<li>Better digestion and gut health</li>
+				<li>Improved sleep</li>
+			</ul>-->
+			<p>Eating a healthy, balanced diet is essential for maintaining good health and preventing chronic diseases. 
+				However, with so many different diet plans and conflicting nutrition information available, it can be challenging 
+				to know what to eat for optimal health. That's where the Healthy Eating Plate comes in.<br>
+				Developed by nutrition experts at the Harvard T.H. Chan School of Public Health, the Healthy Eating Plate is a
+				 visual guide that provides simple, science-based recommendations for a healthy and balanced diet. The Healthy
+				  Eating Plate is based on the latest research on nutrition and health, and it's designed to help people make
+				   informed food choices that promote good health and prevent disease.<br>
+				   Here's a closer look at the Healthy Eating Plate and its recommendations:<br>
+				   1:Fruits and Vegetables<br>
+				   The Healthy Eating Plate recommends filling half of your plate with fruits and vegetables. Fruits and vegetables
+				    are rich in vitamins, minerals, fiber, and antioxidants, which are essential for good health. Eating a variety
+					 of fruits and vegetables can help reduce the risk of chronic diseases such as heart disease, diabetes, and cancer.<br>
+					2:Whole Grains<br>
+					The Healthy Eating Plate recommends making whole grains a staple of your diet. Whole grains, such as brown rice,
+					 quinoa, and whole wheat bread, are rich in fiber, vitamins, and minerals. Eating whole grains can help reduce
+					  the risk of heart disease, diabetes, and certain cancers.<br>
+					3:Healthy Protein Sources<br>
+					The Healthy Eating Plate recommends choosing healthy protein sources such as fish, poultry, beans, and nuts.
+					 These foods are low in saturated fat and rich in essential nutrients such as protein, omega-3 fatty acids, 
+					 and fiber. Eating a variety of healthy protein sources can help maintain good health and prevent chronic diseases.<br>
+					4:Healthy Fats<br>
+					The Healthy Eating Plate recommends using healthy oils such as olive oil, canola oil, and avocado oil. These oils
+					 are rich in heart-healthy monounsaturated and polyunsaturated fats, which can help lower cholesterol levels and 
+					 reduce the risk of heart disease. Eating healthy fats in moderation is essential for good health.<br>
+					 5:Limit Processed and Red Meat<br>
+					 he Healthy Eating Plate recommends limiting processed and red meat. These foods are high in saturated fat and can
+					 increase the risk of heart disease, diabetes, and certain cancers. It's recommended to choose healthier protein 
+					 sources such as fish, poultry, beans, and nuts instead.<br>
+					 6:Drink Water<br>
+					 The Healthy Eating Plate recommends drinking water instead of sugary drinks. Water is essential for good health
+					  and can help maintain hydration, regulate body temperature, and aid in digestion. Drinking water instead of
+					   sugary drinks can help reduce the risk of obesity, diabetes, and other chronic diseases.<br>
+					   In conclusion, the Healthy Eating Plate is a useful tool for individuals who want to make healthier food choices
+					 and adopt a balanced and nutritious diet. By following the recommendations of the Healthy Eating Plate, individuals
+					  can improve their health, prevent chronic diseases, and feel their best.</p>
+		</section>
+
+		<section id="tips">
+			<h2>Healthy Eating Tips</h2>
+			<!--<p>Here are some tips for eating a healthy diet:</p>-->
+			<ol>
+				<li>Eat plenty of fruits and vegetables</li>
+				<li>Choose whole grains over refined grains</li>
+				<li>Limit processed and high-fat foods</li>
+				<li>Choose lean sources of protein</li>
+				<li>Drink plenty of water</li>
+			</ol>
+		</section>
+	</main>
+
+	<!--<footer>
+		<p>&copy; 2023 Healthy Eating. All rights reserved.</p>
+	</footer>-->
+	 <!-- Footer Start -->
+	 <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4  class="fw-bold text-primary mb-4"><span class="text-secondary">Nature's</span> Nurture🌿</h4>
+                    <!--<p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed
+                        stet lorem sit clita</p>-->
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>RMC College, Akurdi</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+919156558525</p>
+                    <p><br><i class="fa fa-envelope me-3"></i>omkarsanjaygokule@gmail.com</p>
+                    <p><i class="fa fa-envelope me-3"></i> shravanihore05@gmail.com</p>
+                    <p><i class="fa fa-envelope me-3"></i>mohited701@gmail.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="">Home</a>
+                    <a class="btn btn-link" href="">Articles</a>
+                    <a class="btn btn-link" href="">Recipes</a>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a href="index.html" class="nav-item nav-link"></a>
+                </div>
+                <!--<div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">@Nature's Nurture🌿</a>, All Right Reserved.
+                    </div>
+                   <div class="col-md-6 text-center text-md-end">
+                       <!-- /*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/ -->
+                        Designed By <a href="https://htmlcodex.com">OSD</a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+</body>
+</html>
